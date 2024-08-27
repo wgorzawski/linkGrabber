@@ -1,0 +1,34 @@
+{
+  "name": "link-grabber",
+  "version": "1.0.0",
+  "description": "A simple Chrome extension built with Vue.js that allows users to save page's URL along with the title, organize URLs into groups.",
+  "scripts": {
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgorzawski/linkGrabber.git"
+  },
+  "keywords": [
+    "browser",
+    "webpack",
+    "laravel-mix",
+    "extension"
+  ],
+  "author": "Wojtek Gorzawski",
+  "bugs": {
+    "url": "https://github.com/wgorzawski/linkGrabber/issues"
+  },
+  "homepage": "https://github.com/wgorzawski/linkGrabber#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.49",
+    "postcss": "^8.4.41",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.1",
+    "vue": "^3.4.38",
+    "vue-loader": "^17.4.2",
+    "vue-template-compiler": "^2.7.16"
+  }
+}
