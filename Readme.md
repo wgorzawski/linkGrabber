@@ -19,7 +19,7 @@ A simple Chrome extension built with Vue.js that allows users to save the curren
 
    ```bash
    git clone
-   cd save-urls-chrome-extension
+   cd linkGrabber
    npm i
    npm run build
    

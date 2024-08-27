@@ -1,7 +1,10 @@
 {
-    "/dist/js/popup.js": "/dist/js/popup.js",
+    "/dist/popup.js": "/dist/popup.js",
+    "/dist/background.js": "/dist/background.js",
     "/dist/css/style.css": "/dist/css/style.css",
     "/dist/images/icon128.png": "/dist/images/icon128.png",
     "/dist/images/icon16.png": "/dist/images/icon16.png",
-    "/dist/images/icon48.png": "/dist/images/icon48.png"
+    "/dist/images/icon48.png": "/dist/images/icon48.png",
+    "/dist/manifest.json": "/dist/manifest.json",
+    "/dist/popup.html": "/dist/popup.html"
 }

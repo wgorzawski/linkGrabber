@@ -4,7 +4,7 @@
   "description": "A simple Chrome extension built with Vue.js that allows users to save page's URL along with the title, organize URLs into groups.",
   "scripts": {
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "prod": "npm run production"
+    "build": "npm run production"
   },
   "repository": {
     "type": "git",
