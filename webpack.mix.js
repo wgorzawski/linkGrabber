@@ -1,4 +1,4 @@
-let mix = require("laravel-mix");
+const mix = require("laravel-mix");
 
 mix
     .setPublicPath("./")
@@ -8,7 +8,6 @@ mix
     .vue()
     .copy("src/images/", "dist/images")
     .copy(["src/manifest.json", "src/popup.html"], "dist")
-    // .copy(, "dist/popup.html")
     .options({
         processCssUrls: false,
     });

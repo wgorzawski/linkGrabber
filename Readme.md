@@ -44,7 +44,7 @@ A simple Chrome extension built with Vue.js that allows users to save the curren
 - [ ] **Search and Filter**: Implement a search and filter feature to easily find specific URLs or groups.
 - [ ] **Export/Import Data**: Allow users to export their saved URLs to a file and import them back, making it easier to backup and restore data.
 - [ ] **Custom Group Icons**: Provide an option for users to assign custom icons or colors to groups for better visual organization.
-
+- [ ] **Add i18n Support**: Implement internationalization (i18n) to support multiple languages in the extension.
 
 ## Contributing
 
