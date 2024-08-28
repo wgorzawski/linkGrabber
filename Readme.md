@@ -39,12 +39,18 @@ A simple Chrome extension built with Vue.js that allows users to save the curren
 ## TODO
 
 - [ ] **Add Styles**: Improve the visual design of the extension, including better styling for the popup interface.
+- [ ] **Save Sessions**: Implement functionality to automatically save all open tabs in the browser as a session that can be restored later.
+- [ ] **Notification Reminders**: Add a feature to set reminders for visiting saved URLs, with notifications.
+- [ ] **Pin Important Links**: Add functionality to pin important links to the top of their group for quick access.
 - [ ] **Delete Links**: Add the ability to remove individual links from groups.
 - [ ] **Delete Groups**: Implement functionality to delete entire groups, including all URLs within them.
 - [ ] **Search and Filter**: Implement a search and filter feature to easily find specific URLs or groups.
 - [ ] **Export/Import Data**: Allow users to export their saved URLs to a file and import them back, making it easier to backup and restore data.
 - [ ] **Custom Group Icons**: Provide an option for users to assign custom icons or colors to groups for better visual organization.
 - [ ] **Add i18n Support**: Implement internationalization (i18n) to support multiple languages in the extension.
+- [ ] **Add Dark Mode**: Implement a dark mode for the extension to reduce eye strain and improve user experience in low-light environments.
+- [ ] **Tagging System**: Introduce a tagging system to allow users to add custom tags to URLs for better categorization and filtering.
+- [ ] **Cyclic Reports**: Generate daily, weekly, and monthly reports summarizing saved URLs, including metrics such as the number of URLs saved, most active groups, and frequently visited links.
 
 ## Contributing
 

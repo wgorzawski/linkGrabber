@@ -15,3 +15,25 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
         // });
     }
 });
+
+chrome.alarms.onAlarm.addListener((alarm) => {
+    // Extract the id from the alarm name
+    const id = alarm.name.split('-')[1];
+
+    // Retrieve the stored links
+    chrome.storage.sync.get(['savedUrls'], (result) => {
+        const links = result.links || [];
+        const link = links.find(link => link.id == id);
+
+        if (link) {
+            // Create a notification
+            chrome.notifications.create({
+                type: 'basic',
+                iconUrl: 'icon.png', // Add your icon path
+                title: 'URL Reminder',
+                message: `It's time to visit: ${link.url}`,
+                priority: 2
+            });
+        }
+    });
+});
